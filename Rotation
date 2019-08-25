@@ -17,11 +17,11 @@ void rightrotate(string &s, int d)
   
 int main() 
 { 
-    string str1 = "GeeksforGeeks"; 
+    string str1 = "Samriddhi"; 
     leftrotate(str1, 2); 
     cout << str1 << endl; 
   
-    string str2 = "GeeksforGeeks"; 
+    string str2 = "Samriddhi Raut"; 
     rightrotate(str2, 2); 
     cout << str2 << endl; 
     return 0; 
