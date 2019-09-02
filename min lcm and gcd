@@ -1,0 +1,24 @@
+#include <bits/stdc++.h> 
+using namespace std;
+int minGCD(int arr[], int n) 
+{   
+    int minGCD = 0;
+    for (int i = 0; i < n; i++) 
+        minGCD = __gcd(minGCD, arr[i]); 
+    return minGCD; 
+} 
+int minLCM(int arr[], int n) 
+{  
+    int minLCM = arr[0]; 
+    for (int i = 1; i < n; i++) 
+        minLCM = min(minLCM, arr[i]); 
+    return minLCM; 
+} 
+int main() 
+{   
+    int arr[] = { 2, 78, 48, 789, 522, 49}; 
+    int n = sizeof(arr) / sizeof(arr[0]); 
+    cout << "LCM = " << minLCM(arr, n) 
+         << ", GCD = " << minGCD(arr, n); 
+    return 0; 
+}
