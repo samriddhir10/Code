@@ -1,6 +1,12 @@
-1. Array
-2. Linked List
-3. Queue
-4. Stack
-5. Trees 
-6. Graph
+Data Structures: 
+                Linear:
+                       Static:
+                             Array
+                       Dynamic:
+                            Linked List
+                            Stack
+                            Queue
+                Non-Linear:
+                      Tree
+                      Graph
+                          
