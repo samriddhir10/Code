@@ -1,2 +1,3 @@
-# Code
-Code with a cup of coffee.
+# CS 
+## with a cup of coffee!
+Here're some fundamentals for Computer Sciences.
